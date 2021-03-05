@@ -5,6 +5,13 @@ The package provides a way to annotate methods with a `@Policy` annotation and s
 The format looks like this (taken from the `TestController` you can find in this package)
 
 ```
+<?php
+
+namespace Meteko\PolicyAnnotation\Controller;
+
+use Neos\Flow\Mvc\Controller\ActionController;
+use Meteko\PolicyAnnotation\Annotations\Policy; #!!!This is the imported annotation
+
 class TestController extends ActionController
 {
     /**
