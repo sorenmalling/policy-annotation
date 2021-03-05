@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "meteko/policyannotation",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meteko\\PolicyAnnotation\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Meteko.PolicyAnnotation"
+        }
+    }
+}
