@@ -2,6 +2,13 @@
 
 The package provides a way to annotate methods with a `@Policy` annotation and set permission for a role.
 
+## Install 
+```
+composer install meteko/policyannotation 
+```
+
+## Configuration
+
 The format looks like this (taken from the `TestController` you can find in this package)
 
 ```
